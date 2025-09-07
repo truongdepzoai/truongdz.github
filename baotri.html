@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảo trì hệ thống</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      display: inline-block;
+      padding: 20px 40px;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .status {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .version {
+      color: #007bff;
+      font-weight: bold;
+    }
+    .maintenance {
+      font-weight: bold;
+    }
+    .on {
+      color: red;
+    }
+    .off {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Thông tin hệ thống</h2>
+    <p class="status">Phiên bản hiện tại: <span id="version_vip" class="version">1.0.0</span></p>
+    <p class="status">Bảo trì: <span id="maintenance_vip" class="maintenance off">off</span></p>
+  </div>
+</body>
+</html>
